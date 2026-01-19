@@ -1,0 +1,44 @@
+/* Estilos base */
+body { 
+    background-color: #121212; 
+    font-family: sans-serif; 
+    padding: 50px; 
+    color: white; 
+
+    p{
+        color: red;
+    }
+}
+
+.nav-contenedor {
+    background-color: white;
+    width: 700px;
+    height: 100px;
+    padding: 20px;
+    box-sizing: border-box;
+    /* Forzamos a que los botones NO bajen a otra línea para ver el desborde */
+    white-space: nowrap; 
+    overflow: visible; 
+}
+
+.boton {
+    display: inline-block; /* Comportamiento tradicional */
+    width: 150px;
+    height: 60px;
+    background-color: #74b9ff;
+    margin-right: 60px; 
+    border-radius: 10px;
+    color: #2d3436;
+    text-align: center;
+    line-height: 60px;
+    vertical-align: middle;
+}
+
+.logo { 
+    background-color: #00008b; 
+    color: white; 
+    border-radius: 50%; 
+    width: 60px; }
+.boton:last-child { 
+    margin-right: 0; 
+}
